@@ -19,12 +19,10 @@ module OffsitePayments #:nodoc:
       end
 
       def self.service_url
-        mode = OffsitePayments.mode
-        case mode
-        when :production
-          self.production_url
-        when :test
+        if OffsitePayments.mode == :test || options[:test]
           self.test_url
+        elsif OffsitePayments.mode == :production
+          self.production_url
         else
           raise StandardError, "Integration mode set to an invalid value: #{mode}"
         end
