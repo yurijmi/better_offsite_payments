@@ -74,6 +74,7 @@ module OffsitePayments #:nodoc:
           super
           @timestamp = Time.now.strftime('%Y%m%d%H%M%S')
           add_field 'VendorTxCode', "#{order}#{@timestamp}"
+          add_field 'OrderId', "#{order}"
         end
 
         mapping :credential2, 'EncryptKey'
@@ -251,7 +252,7 @@ module OffsitePayments #:nodoc:
 
         # Vendor-supplied code (:order mapping).
         def item_id
-          params['VendorTxCode']
+          params['OrderId']
         end
 
         # Internal SagePay code, typically "{LONG-UUID}".
