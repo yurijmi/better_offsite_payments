@@ -1,4 +1,4 @@
-# Offsite Payments
+# Better Offsite Payments
 [![Build Status](https://travis-ci.org/yurijmi/better_offsite_payments.svg?branch=master)](https://travis-ci.org/yurijmi/better_offsite_payments)
 [![Code Climate](https://codeclimate.com/github/yurijmi/better_offsite_payments/badges/gpa.svg)](https://codeclimate.com/github/yurijmi/better_offsite_payments)
 [![Test Coverage](https://codeclimate.com/github/yurijmi/better_offsite_payments/badges/coverage.svg)](https://codeclimate.com/github/yurijmi/better_offsite_payments/coverage)
@@ -10,14 +10,6 @@ as a Rails plugin. It should also work as a stand alone Ruby library, but much o
 
 Offsite Payments has been in production use (originally as part of the [ActiveMerchant](https://github.com/activemerchant/active_merchant) project) since June 2006. It is maintained by the [Shopify](http://www.shopify.com) team, with much help from an ever-growing set of contributors.
 
-The addition of your gateway to offsite_payments does not guarantee placement within Shopify. In order to have your gateway considered, please send an email to payment-integrations@shopify.com with **Offsite Payments Integration** in the subject. Be sure to include:
-
-1. Name, URL & description of the payment provider you wish to integrate
-2. Markets served by this integration
-3. List of major supported payment methods
-4. Your most recent Certificate of PCI Compliance
-5. Reason that the [Universal API](https://github.com/activemerchant/offsite_payments/blob/master/lib/offsite_payments/integrations/universal.rb)* cannot be used for your integration.
-
 *The Universal API defines a standard set of requests and callbacks that can be used to integrate with Shopify. A sample app and documentation are hosted [here](https://github.com/Shopify/offsite-gateway-sim). The Universal API should be used for all integrations in which placement within Shopify is the desired outcome. 
 
 ## Installation
@@ -26,19 +18,19 @@ The addition of your gateway to offsite_payments does not guarantee placement wi
 
 You can check out the latest source from git:
 
-    git clone https://github.com/activemerchant/offsite_payments.git
+    git clone https://github.com/yurijmi/better_offsite_payments.git
 
 ### From RubyGems
 
 Installation from RubyGems:
 
-    gem install offsite_payments
+    gem install better_offsite_payments
 
 Or, if you're using Bundler, just add the following to your Gemfile:
 
-    gem 'offsite_payments'
+    gem 'better_offsite_payments'
 
-[API documentation](http://www.rubydoc.info/github/activemerchant/offsite_payments/master).
+[API documentation](http://www.rubydoc.info/github/yurijmi/better_offsite_payments/master).
 
 ## Supported Integrations
 
