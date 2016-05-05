@@ -1,4 +1,10 @@
-# Offsite Payments CHANGELOG
+# Better Offsite Payments CHANGELOG
+
+### Version 2.3.0 (May 5, 2016)
+- Added Yandex.Money integration [yurijmi]
+- Added MegaKassa.ru integration [yurijmi]
+- Fixed WebMoney integration [madmike]
+- Renamed gem from offsite_payments to better_offsite_payments [yurijmi]
 
 ### Version 2.2.0 (October 14, 2015)
 - Bump active_utils dependency. [lucasuyezu]
