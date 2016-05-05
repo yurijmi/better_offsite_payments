@@ -3,7 +3,7 @@ require 'offsite_payments/version'
 
 Gem::Specification.new do |s|
   s.platform     = Gem::Platform::RUBY
-  s.name         = 'offsite_payments'
+  s.name         = 'better_offsite_payments'
   s.version      = OffsitePayments::VERSION
   s.summary      = 'Framework and tools for dealing with offsite (hosted) payment pages.'
   s.description  = 'Offsite Payments is a simple abstraction library used in ' +
@@ -15,9 +15,9 @@ Gem::Specification.new do |s|
                    'extend the number of offsite payment services they support.'
   s.license      = "MIT"
 
-  s.author = 'Tobias Luetke'
-  s.email = 'tobi@shopify.com'
-  s.homepage = 'https://github.com/activemerchant/offsite_payments'
+  s.author = 'Yuri Mikhaylov'
+  s.email = 'me@yurijmi.ru'
+  s.homepage = 'https://github.com/yurijmi/better_offsite_payments'
 
   s.files = Dir['CHANGELOG', 'README.md', 'MIT-LICENSE', 'lib/**/*']
   s.require_path = 'lib'
