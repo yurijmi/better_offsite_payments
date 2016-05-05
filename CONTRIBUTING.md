@@ -9,11 +9,11 @@ We gladly accept new gateways or bugfixes to this library. Please read the guide
 
 ### Pull request guidelines
 
-1. [Fork it](http://github.com/activemerchant/offsite_payments/fork) and clone your new repo
+1. [Fork it](http://github.com/yurijmi/better_offsite_payments/fork) and clone your new repo
 2. Create a branch (`git checkout -b my_awesome_feature`)
 3. Commit your changes (`git add my/awesome/file.rb; git commit -m "Added my awesome feature"`)
 4. Push your changes to your fork (`git push origin my_awesome_feature`)
-5. Open a [Pull Request](https://github.com/shopify/offsite_payments/pulls)
+5. Open a [Pull Request](https://github.com/yurijmi/better_offsite_payments/pulls)
 
 The most important guidelines:
 
@@ -24,15 +24,6 @@ The most important guidelines:
 - **JSON**: use `JSON` in the standard library to parse and generate JSON.
 - **HTTP**: use `ActiveUtils::PostsData` to do HTTP requests.
 - Do not update the CHANGELOG, or the `OffsitePayments::VERSION` constant.
-
-### Placement within Shopify
-
-The addition of your payment integration to offsite_payments does not guarantee placement within Shopify. In order to have your gateway considered, please send an email to payment-integrations@shopify.com with **Offsite_Payment Integration** in the subject. Be sure to include:
-
-1. Name, URL & description of the payment provider you wish to integrate
-2. Markets served by this integration
-3. List of major supported payment methods
-4. Your most recent Certificate of PCI Compliance
 
 ### Releasing
 
